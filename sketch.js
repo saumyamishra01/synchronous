@@ -11,8 +11,6 @@ function setup(){
   hypnoticBall.shapeColor = "red";
 
 
-  var hypnoticBallPosition = database.ref('ball/position');
-  hypnoticBallPosition.on("value", readPosition, showError);
 }
 
 function draw(){
